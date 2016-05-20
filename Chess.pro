@@ -13,11 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    MyRect.cpp \
-    bullet.cpp
+    bullet.cpp \
+    enemy.cpp \
+    player.cpp
 
 HEADERS  += \
-    MyRect.h \
-    bullet.h
+    bullet.h \
+    enemy.h \
+    player.h
 
 FORMS    +=
